@@ -6,7 +6,6 @@ const { DOMParser } = require('xmldom'); // Install this package with `npm insta
 const inputFilePath = path.join(__dirname, 'phoneData.xml');
 const outputFilePath = path.join(__dirname, 'bodaData.xml');
 
-
 // Read the phoneData.xml file
 fs.readFile(inputFilePath, 'utf8', (err, data) => {
   if (err) {
